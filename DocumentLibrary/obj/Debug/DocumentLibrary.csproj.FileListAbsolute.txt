@@ -1,0 +1,8 @@
+D:\ASDOC\ASDOC\DocumentLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\ASDOC\ASDOC\DocumentLibrary\bin\Debug\DocumentLibrary.dll
+D:\ASDOC\ASDOC\DocumentLibrary\bin\Debug\DocumentLibrary.pdb
+D:\ASDOC\ASDOC\DocumentLibrary\obj\Debug\DocumentLibrary.dll
+D:\ASDOC\ASDOC\DocumentLibrary\obj\Debug\DocumentLibrary.pdb
+D:\ASDOC\ASDOC\DocumentLibrary\obj\Debug\DocumentLibrary.Editor.Editor.resources
+D:\ASDOC\ASDOC\DocumentLibrary\obj\Debug\DocumentLibrary.Properties.Resources.resources
+D:\ASDOC\ASDOC\DocumentLibrary\obj\Debug\DocumentLibrary.csproj.GenerateResource.Cache

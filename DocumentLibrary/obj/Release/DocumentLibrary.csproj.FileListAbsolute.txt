@@ -1,0 +1,9 @@
+D:\ASDOC\ASDOC\DocumentLibrary\bin\Release\DocumentLibrary.dll
+D:\ASDOC\ASDOC\DocumentLibrary\bin\Release\DocumentLibrary.pdb
+D:\ASDOC\ASDOC\DocumentLibrary\obj\Release\ResolveAssemblyReference.cache
+D:\ASDOC\ASDOC\DocumentLibrary\obj\Release\DocumentLibrary.Editor.Editor.resources
+D:\ASDOC\ASDOC\DocumentLibrary\obj\Release\DocumentLibrary.Properties.Resources.resources
+D:\ASDOC\ASDOC\DocumentLibrary\obj\Release\DocumentLibrary.csproj.GenerateResource.Cache
+D:\ASDOC\ASDOC\DocumentLibrary\obj\Release\DocumentLibrary.dll
+D:\ASDOC\ASDOC\DocumentLibrary\obj\Release\DocumentLibrary.pdb
+D:\ASDOC\ASDOC\DocumentLibrary\bin\Release\Microsoft.mshtml.dll

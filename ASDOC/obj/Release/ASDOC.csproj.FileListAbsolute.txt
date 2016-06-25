@@ -1,0 +1,13 @@
+D:\ASDOC\ASDOC\ASDOC\obj\Release\ResolveAssemblyReference.cache
+D:\ASDOC\ASDOC\ASDOC\obj\Release\ASDOC.EditorFrm.resources
+D:\ASDOC\ASDOC\ASDOC\obj\Release\ASDOC.Properties.Resources.resources
+D:\ASDOC\ASDOC\ASDOC\obj\Release\ASDOC.ViewFrm.resources
+D:\ASDOC\ASDOC\ASDOC\obj\Release\ASDOC.csproj.GenerateResource.Cache
+D:\ASDOC\ASDOC\ASDOC\bin\Release\ASDOC.exe
+D:\ASDOC\ASDOC\ASDOC\bin\Release\ASDOC.pdb
+D:\ASDOC\ASDOC\ASDOC\bin\Release\DocumentLibrary.dll
+D:\ASDOC\ASDOC\ASDOC\bin\Release\DocumentLibrary.pdb
+D:\ASDOC\ASDOC\ASDOC\obj\Release\ASDOC.exe
+D:\ASDOC\ASDOC\ASDOC\obj\Release\ASDOC.pdb
+D:\ASDOC\ASDOC\ASDOC\bin\Release\DevComponents.DotNetBar2.dll
+D:\ASDOC\ASDOC\ASDOC\bin\Release\DevComponents.DotNetBar2.xml

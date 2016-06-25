@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0E3C4FEB-E3C4-42D9-9F94-E6E7B16B425D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DocumentLibrary</RootNamespace>
+    <AssemblyName>DocumentLibrary</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArsslenDocument.cs" />
+    <Compile Include="Bridge.cs" />
+    <Compile Include="Editor\htmlwysiwyg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Editor\htmlwysiwyg.designer.cs">
+      <DependentUpon>htmlwysiwyg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Office2007ColorTable.cs" />
+    <Compile Include="Editor\Office2007Helpers.cs" />
+    <Compile Include="Editor\Office2007Renderer.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Viewer\CssAnonymousBlockBox.cs" />
+    <Compile Include="Viewer\CssAnonymousBox.cs" />
+    <Compile Include="Viewer\CssBlock.cs" />
+    <Compile Include="Viewer\CssBox.cs" />
+    <Compile Include="Viewer\CssBoxWord.cs" />
+    <Compile Include="Viewer\CssBoxWordSplitter.cs" />
+    <Compile Include="Viewer\CssConstants.cs" />
+    <Compile Include="Viewer\CssDefaults.cs" />
+    <Compile Include="Viewer\CssDrawingHelper.cs" />
+    <Compile Include="Viewer\CssLayoutEngine.cs" />
+    <Compile Include="Viewer\CssLength.cs" />
+    <Compile Include="Viewer\CssLineBox.cs" />
+    <Compile Include="Viewer\CssPropertyAttribute.cs" />
+    <Compile Include="Viewer\CssPropertyInheritedAttribute.cs" />
+    <Compile Include="Viewer\CssRectangle.cs" />
+    <Compile Include="Viewer\CssTable.cs" />
+    <Compile Include="Viewer\CssValue.cs" />
+    <Compile Include="Viewer\HtmlConstants.cs" />
+    <Compile Include="Viewer\HtmlLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Viewer\HtmlPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Viewer\HtmlRenderer.cs" />
+    <Compile Include="Viewer\HtmlTag.cs" />
+    <Compile Include="Viewer\HtmlToolTip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Viewer\InitialContainer.cs" />
+    <Compile Include="Viewer\Parser.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Editor\htmlwysiwyg.resx">
+      <DependentUpon>htmlwysiwyg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\align_center.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\align_justify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\align_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\align_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bulleted_list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\decrease_indent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\increase_indent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insert_link.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\italic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\numbered_list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove_link.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select_background_color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select_color_text.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strike_trough.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\underline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Editor\RichTextBoxExtended.bmp" />
+    <None Include="Resources\save_as.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,11 @@
+D:\ASDOC\ASDOC\ASDOC\obj\Debug\ResolveAssemblyReference.cache
+D:\ASDOC\ASDOC\ASDOC\obj\Debug\ASDOC.Properties.Resources.resources
+D:\ASDOC\ASDOC\ASDOC\obj\Debug\ASDOC.csproj.GenerateResource.Cache
+D:\ASDOC\ASDOC\ASDOC\obj\Debug\ASDOC.EditorFrm.resources
+D:\ASDOC\ASDOC\ASDOC\obj\Debug\ASDOC.ViewFrm.resources
+D:\ASDOC\ASDOC\ASDOC\bin\Debug\ASDOC.exe
+D:\ASDOC\ASDOC\ASDOC\bin\Debug\ASDOC.pdb
+D:\ASDOC\ASDOC\ASDOC\bin\Debug\DocumentLibrary.dll
+D:\ASDOC\ASDOC\ASDOC\bin\Debug\DocumentLibrary.pdb
+D:\ASDOC\ASDOC\ASDOC\obj\Debug\ASDOC.exe
+D:\ASDOC\ASDOC\ASDOC\obj\Debug\ASDOC.pdb
